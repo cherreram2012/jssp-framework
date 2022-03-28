@@ -1,0 +1,228 @@
+Pieces  : 10
+Machines: 10
+
+[MACHINES]
+M1
+M2
+M3
+M4
+M5
+M6
+M7
+M8
+M9
+M10
+[End]
+
+[NOMINAL-ENERGY]
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+[End]
+
+[PIECE]
+Name: P1
+ID: 1
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M1: 96.0
+M2: 69.0
+M3: 25.0
+M4: 5.0
+M5: 55.0
+M6: 15.0
+M7: 88.0
+M8: 11.0
+M9: 17.0
+M10: 82.0
+[End]
+
+[PIECE]
+Name: P2
+ID: 2
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M1: 11.0
+M2: 48.0
+M3: 67.0
+M4: 38.0
+M5: 18.0
+M8: 24.0
+M7: 62.0
+M6: 92.0
+M10: 96.0
+M9: 81.0
+[End]
+
+[PIECE]
+Name: P3
+ID: 3
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M3: 67.0
+M2: 63.0
+M1: 93.0
+M5: 85.0
+M4: 25.0
+M6: 72.0
+M7: 51.0
+M8: 81.0
+M9: 58.0
+M10: 15.0
+[End]
+
+[PIECE]
+Name: P4
+ID: 4
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M3: 30.0
+M2: 35.0
+M1: 27.0
+M5: 82.0
+M4: 44.0
+M8: 92.0
+M7: 25.0
+M6: 49.0
+M10: 28.0
+M9: 77.0
+[End]
+
+[PIECE]
+Name: P5
+ID: 5
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M2: 53.0
+M1: 83.0
+M5: 73.0
+M4: 26.0
+M3: 77.0
+M7: 33.0
+M6: 92.0
+M10: 99.0
+M9: 38.0
+M8: 38.0
+[End]
+
+[PIECE]
+Name: P6
+ID: 6
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M2: 20.0
+M1: 44.0
+M5: 81.0
+M4: 88.0
+M3: 66.0
+M7: 70.0
+M6: 91.0
+M10: 37.0
+M9: 55.0
+M8: 96.0
+[End]
+
+[PIECE]
+Name: P7
+ID: 7
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M2: 21.0
+M3: 93.0
+M5: 22.0
+M1: 56.0
+M4: 34.0
+M7: 40.0
+M8: 53.0
+M10: 46.0
+M6: 29.0
+M9: 63.0
+[End]
+
+[PIECE]
+Name: P8
+ID: 8
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M2: 32.0
+M3: 63.0
+M5: 36.0
+M1: 26.0
+M4: 17.0
+M6: 85.0
+M8: 15.0
+M9: 55.0
+M10: 16.0
+M7: 82.0
+[End]
+
+[PIECE]
+Name: P9
+ID: 9
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M1: 73.0
+M3: 46.0
+M4: 89.0
+M5: 24.0
+M2: 99.0
+M7: 92.0
+M8: 7.0
+M10: 51.0
+M6: 19.0
+M9: 14.0
+[End]
+
+[PIECE]
+Name: P10
+ID: 10
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M1: 52.0
+M3: 20.0
+M4: 70.0
+M5: 98.0
+M2: 23.0
+M6: 15.0
+M8: 81.0
+M9: 71.0
+M10: 24.0
+M7: 81.0
+[End]

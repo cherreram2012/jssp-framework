@@ -1,0 +1,50 @@
+Pieces  : 4          
+Machines: 9          
+
+[MACHINES]           
+M1-A                           
+M1-B                           
+M1-C                           
+M2-A                           
+M2-B                           
+M2-C                           
+M3-A                           
+M3-B                           
+M3-C                           
+[End]
+
+[PIECE] 
+Name: Pieza1             
+ID: 1                		
+
+M1-A: 3 | M2-A: 3 | M3-A: 3	
+M2-B: 7.2 | M1-B: 7.2 | M3-B: 7.2  				
+M3-C: 8 | M1-C: 8 | M2-C: 8				
+[End]
+
+[PIECE] 
+Name: Pieza2
+ID: 2
+
+M1-A: 1.5| M2-A: 1.5 | M3-A: 1.5                
+M1-B: 7.6 | M2-B: 7.6 | M3-B: 7.6               
+M3-C: 8.8 | M1-C: 8.8 | M2-C: 8.8               
+[End]
+
+[PIECE] 
+Name: Pieza3
+ID: 3
+
+M1-A: 2.5 | M2-A: 2.5 | M3-A: 2.5               
+M2-B: 6.8 | M1-B: 6.8 | M3-B: 6.8               
+M3-C: 10.5 | M1-C: 10.5 | M2-C: 0.5               
+[End]
+
+[PIECE] 
+Name: Pieza4
+ID: 4
+
+M1-A: 4 | M2-A: 4 | M3-A: 4  
+M2-B: 0 | M1-B: 0 | M3-B: 0               
+M3-C: 0 | M1-C: 0 | M2-C: 0               
+[End]

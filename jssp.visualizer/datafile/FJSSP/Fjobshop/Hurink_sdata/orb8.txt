@@ -1,0 +1,228 @@
+Pieces  : 10
+Machines: 10
+
+[MACHINES]
+M1
+M2
+M3
+M4
+M5
+M6
+M7
+M8
+M9
+M10
+[End]
+
+[NOMINAL-ENERGY]
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+[End]
+
+[PIECE]
+Name: P1
+ID: 1
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M1: 55.0
+M2: 74.0
+M3: 45.0
+M4: 23.0
+M5: 76.0
+M6: 19.0
+M7: 18.0
+M8: 61.0
+M9: 44.0
+M10: 11.0
+[End]
+
+[PIECE]
+Name: P2
+ID: 2
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M1: 63.0
+M2: 43.0
+M3: 51.0
+M4: 18.0
+M5: 42.0
+M8: 11.0
+M7: 29.0
+M6: 52.0
+M10: 29.0
+M9: 88.0
+[End]
+
+[PIECE]
+Name: P3
+ID: 3
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M3: 88.0
+M2: 31.0
+M1: 47.0
+M5: 10.0
+M4: 62.0
+M6: 60.0
+M7: 58.0
+M8: 29.0
+M9: 52.0
+M10: 92.0
+[End]
+
+[PIECE]
+Name: P4
+ID: 4
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M3: 16.0
+M2: 71.0
+M1: 55.0
+M5: 55.0
+M4: 9.0
+M8: 49.0
+M7: 83.0
+M6: 54.0
+M10: 7.0
+M9: 57.0
+[End]
+
+[PIECE]
+Name: P5
+ID: 5
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M2: 7.0
+M1: 41.0
+M5: 92.0
+M4: 94.0
+M3: 46.0
+M7: 79.0
+M6: 34.0
+M10: 38.0
+M9: 8.0
+M8: 18.0
+[End]
+
+[PIECE]
+Name: P6
+ID: 6
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M2: 25.0
+M1: 5.0
+M5: 89.0
+M4: 94.0
+M3: 14.0
+M7: 94.0
+M6: 20.0
+M10: 23.0
+M9: 44.0
+M8: 39.0
+[End]
+
+[PIECE]
+Name: P7
+ID: 7
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M2: 24.0
+M3: 21.0
+M5: 47.0
+M1: 40.0
+M4: 94.0
+M7: 71.0
+M8: 89.0
+M10: 75.0
+M6: 97.0
+M9: 15.0
+[End]
+
+[PIECE]
+Name: P8
+ID: 8
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M2: 5.0
+M3: 7.0
+M5: 74.0
+M1: 28.0
+M4: 72.0
+M6: 61.0
+M8: 9.0
+M9: 53.0
+M10: 32.0
+M7: 97.0
+[End]
+
+[PIECE]
+Name: P9
+ID: 9
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M1: 34.0
+M3: 52.0
+M4: 37.0
+M5: 6.0
+M2: 94.0
+M7: 6.0
+M8: 56.0
+M10: 41.0
+M6: 5.0
+M9: 16.0
+[End]
+
+[PIECE]
+Name: P10
+ID: 10
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M1: 77.0
+M3: 74.0
+M4: 82.0
+M5: 10.0
+M2: 29.0
+M6: 15.0
+M8: 51.0
+M9: 65.0
+M10: 37.0
+M7: 21.0
+[End]

@@ -1,0 +1,228 @@
+Pieces  : 10
+Machines: 10
+
+[MACHINES]
+M1
+M2
+M3
+M4
+M5
+M6
+M7
+M8
+M9
+M10
+[End]
+
+[NOMINAL-ENERGY]
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+[End]
+
+[PIECE]
+Name: P1
+ID: 1
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M8: 62.0
+M9: 24.0
+M6: 25.0
+M4: 84.0
+M5: 47.0
+M7: 38.0
+M3: 82.0
+M1: 93.0
+M10: 24.0
+M2: 66.0
+[End]
+
+[PIECE]
+Name: P2
+ID: 2
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M6: 47.0
+M3: 97.0
+M9: 92.0
+M10: 22.0
+M2: 93.0
+M5: 29.0
+M8: 56.0
+M4: 80.0
+M1: 78.0
+M7: 67.0
+[End]
+
+[PIECE]
+Name: P3
+ID: 3
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M2: 45.0
+M8: 46.0
+M7: 22.0
+M3: 26.0
+M10: 38.0
+M1: 69.0
+M5: 40.0
+M4: 33.0
+M9: 75.0
+M6: 96.0
+[End]
+
+[PIECE]
+Name: P4
+ID: 4
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M5: 85.0
+M9: 76.0
+M6: 68.0
+M10: 88.0
+M4: 36.0
+M7: 75.0
+M3: 56.0
+M2: 35.0
+M1: 77.0
+M8: 85.0
+[End]
+
+[PIECE]
+Name: P5
+ID: 5
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M9: 60.0
+M10: 20.0
+M8: 25.0
+M4: 63.0
+M5: 81.0
+M1: 52.0
+M2: 30.0
+M6: 98.0
+M7: 54.0
+M3: 86.0
+[End]
+
+[PIECE]
+Name: P6
+ID: 6
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M4: 87.0
+M10: 73.0
+M6: 51.0
+M3: 95.0
+M5: 65.0
+M2: 86.0
+M7: 22.0
+M9: 58.0
+M1: 80.0
+M8: 65.0
+[End]
+
+[PIECE]
+Name: P7
+ID: 7
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M6: 81.0
+M3: 53.0
+M8: 57.0
+M7: 71.0
+M10: 81.0
+M1: 43.0
+M5: 26.0
+M9: 54.0
+M4: 58.0
+M2: 69.0
+[End]
+
+[PIECE]
+Name: P8
+ID: 8
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M5: 20.0
+M7: 86.0
+M6: 21.0
+M9: 79.0
+M10: 62.0
+M3: 34.0
+M1: 27.0
+M2: 81.0
+M8: 30.0
+M4: 46.0
+[End]
+
+[PIECE]
+Name: P9
+ID: 9
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M10: 68.0
+M7: 66.0
+M6: 98.0
+M9: 86.0
+M8: 66.0
+M1: 56.0
+M4: 82.0
+M2: 95.0
+M5: 47.0
+M3: 78.0
+[End]
+
+[PIECE]
+Name: P10
+ID: 10
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M1: 30.0
+M4: 50.0
+M8: 34.0
+M3: 58.0
+M2: 77.0
+M6: 34.0
+M9: 84.0
+M5: 40.0
+M10: 46.0
+M7: 44.0
+[End]

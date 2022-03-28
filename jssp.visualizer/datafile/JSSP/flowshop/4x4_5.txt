@@ -1,0 +1,72 @@
+Pieces  : 4
+Machines: 4
+
+[MACHINES]
+M1
+M2
+M3
+M4
+[End]
+
+[NOMINAL ENERGY]
+1
+1
+1
+1
+[End]
+
+[PIECE] 
+Name: J1
+ID: 1
+Priority: 0.0
+DueDate: 0.0
+Penality: 0.0
+Reward: 0.0
+
+M1: 4
+M2: 6
+M3: 8
+M4: 3
+[End]
+
+[PIECE] 
+Name: J2
+ID: 2
+Priority: 0.0
+DueDate: 0.0
+Penality: 0.0
+Reward: 0.0
+
+M1: 3
+M2: 6
+M3: 8
+M4: 5
+[End]
+
+[PIECE] 
+Name: J3
+ID: 3
+Priority: 0.0
+DueDate: 0.0
+Penality: 0.0
+Reward: 0.0
+
+M1: 5
+M2: 3
+M3: 4
+M4: 7
+[End]
+
+[PIECE] 
+Name: J4
+ID: 4
+Priority: 0.0
+DueDate: 0.0 
+Penality: 0.0
+Reward: 0.0
+
+M1: 6
+M2: 6
+M3: 3
+M4: 5
+[End]

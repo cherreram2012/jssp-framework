@@ -1,0 +1,48 @@
+Pieces  : 3
+Machines: 2
+
+[MACHINES]
+M1
+M2
+[End]
+
+[NOMINAL-ENERGY]
+1
+1
+[End]
+
+[PIECE]
+Name: P1
+ID: 1
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M1: 54.0 | M2: 63.0
+M1: 87.0 | M2: 95.0
+[End]
+
+[PIECE]
+Name: P2
+ID: 2
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M2: 120.0
+M2: 152.0
+[End]
+
+[PIECE]
+Name: P3
+ID: 3
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M1: 125.0 | M2: 135.0
+M1: 143.0 | M2: 124.0
+[End]

@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sources files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resources files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Sources files</Filter>
+    </ClCompile>
+    <ClCompile Include="CTerminator.cpp">
+      <Filter>Sources files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPathRelinking.cpp">
+      <Filter>Sources files</Filter>
+    </ClCompile>
+    <ClCompile Include="CEliteSet.cpp">
+      <Filter>Sources files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGrasp_PR.cpp">
+      <Filter>Sources files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGraspBasic.cpp">
+      <Filter>Sources files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGraspAbstract.cpp">
+      <Filter>Sources files</Filter>
+    </ClCompile>
+    <ClCompile Include="experiments_GRASP_BASIC.cpp">
+      <Filter>Sources files</Filter>
+    </ClCompile>
+    <ClCompile Include="experiments_GRASP_PR.cpp">
+      <Filter>Sources files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGrasp_EvPR.cpp">
+      <Filter>Sources files</Filter>
+    </ClCompile>
+    <ClCompile Include="experiments_GRASP_PR_IBUIT.cpp">
+      <Filter>Sources files</Filter>
+    </ClCompile>
+    <ClCompile Include="CRestarts.cpp">
+      <Filter>Sources files</Filter>
+    </ClCompile>
+    <ClCompile Include="CEvolutionaryPR.cpp">
+      <Filter>Sources files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGrasp_itEvPR.cpp">
+      <Filter>Sources files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGrasp_PR_Restarts.cpp">
+      <Filter>Sources files</Filter>
+    </ClCompile>
+    <ClCompile Include="experiments_GRASP_PR_RESTARTS.cpp">
+      <Filter>Sources files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\Debug\jssp.model.lib" />
+    <Library Include="..\Debug\chm.utilities.lib" />
+    <Library Include="..\Debug\jssp.heuristics.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CStatistics.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CTerminator.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPathRelinking.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CEliteSet.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGrasp_PR.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGraspBasic.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGraspAbstract.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="experiments_GRASP_BASIC.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="experiments_GRASP_PR.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGrasp_EvPR.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="experiments_GRASP_PR_IBUIT.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CRestarts.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CEvolutionaryPR.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGrasp_itEvPR.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGrasp_PR_Restarts.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="experiments_GRASP_PR_RESTARTS.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5E4FCCB4-A8DF-47DB-9B45-2031FE219971}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>jsspgraspmethod</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <ProjectName>grasp.method</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CEliteSet.cpp" />
+    <ClCompile Include="CEvolutionaryPR.cpp" />
+    <ClCompile Include="CGraspAbstract.cpp" />
+    <ClCompile Include="CGraspBasic.cpp" />
+    <ClCompile Include="CGrasp_EvPR.cpp" />
+    <ClCompile Include="CGrasp_itEvPR.cpp" />
+    <ClCompile Include="CGrasp_PR.cpp" />
+    <ClCompile Include="CGrasp_PR_Restarts.cpp" />
+    <ClCompile Include="CPathRelinking.cpp" />
+    <ClCompile Include="CRestarts.cpp" />
+    <ClCompile Include="CTerminator.cpp" />
+    <ClCompile Include="experiments_GRASP_BASIC.cpp" />
+    <ClCompile Include="experiments_GRASP_PR.cpp" />
+    <ClCompile Include="experiments_GRASP_PR_IBUIT.cpp" />
+    <ClCompile Include="experiments_GRASP_PR_RESTARTS.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\Debug\chm.utilities.lib" />
+    <Library Include="..\Debug\jssp.heuristics.lib" />
+    <Library Include="..\Debug\jssp.model.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CEliteSet.h" />
+    <ClInclude Include="CEvolutionaryPR.h" />
+    <ClInclude Include="CGraspAbstract.h" />
+    <ClInclude Include="CGraspBasic.h" />
+    <ClInclude Include="CGrasp_EvPR.h" />
+    <ClInclude Include="CGrasp_itEvPR.h" />
+    <ClInclude Include="CGrasp_PR.h" />
+    <ClInclude Include="CGrasp_PR_Restarts.h" />
+    <ClInclude Include="CPathRelinking.h" />
+    <ClInclude Include="CRestarts.h" />
+    <ClInclude Include="CTerminator.h" />
+    <ClInclude Include="CStatistics.h" />
+    <ClInclude Include="experiments_GRASP_BASIC.h" />
+    <ClInclude Include="experiments_GRASP_PR.h" />
+    <ClInclude Include="experiments_GRASP_PR_IBUIT.h" />
+    <ClInclude Include="experiments_GRASP_PR_RESTARTS.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

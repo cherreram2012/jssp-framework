@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="JSSP_Viewer.exe"/>
+    <OBJFILES value="JSSP_Viewer.obj formularios\_frmMDIMain.obj formularios\_frmAboutBox.obj 
+      clases\class_TGanttDiagram.obj formularios\_frmSequences.obj 
+      clases\gceUtiles.obj &quot;formularios\Gantt Chat\_frmGDiagram.obj&quot; 
+      &quot;formularios\Energy Chart\_frmEnergyChart.obj&quot; 
+      clases\class_EnergyChart.obj clases\CHndFile_PM.obj 
+      clases\CMachineCollection_PM.obj clases\CMachineGroup_PM.obj 
+      clases\CPieceCollection_PM.obj clases\CSPGraph_PM.obj 
+      clases\CWorkCenterCollection_PM.obj"/>
+    <RESFILES value="JSSP_Viewer.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) formularios\_frmMDIMain.dfm formularios\_frmAboutBox.dfm 
+      formularios\_frmSequences.dfm &quot;formularios\Gantt Chat\_frmGDiagram.dfm&quot; &quot;formularios\Energy Chart\_frmEnergyChart.dfm&quot;"/>
+    <LIBFILES value="ga_bcc.lib"/>
+    <LIBRARIES value="Package_TGDRuler.lib dclocx.lib vclx.lib bcbsmp.lib rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib bcbsmp.lib vclx.lib dclocx.lib Package_TGDRuler.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi bdertl.bpi 
+      vcldbx.bpi ibxpress.bpi dsnap.bpi cds.bpi bdecds.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi dss.bpi teeqr.bpi visualclx.bpi visualdbclx.bpi 
+      dsnapcrba.bpi dsnapcon.bpi bcbsmp.bpi vclie.bpi xmlrtl.bpi inet.bpi 
+      inetdbbde.bpi inetdbxpress.bpi inetdb.bpi nmfast.bpi webdsnap.bpi 
+      bcbie.bpi websnap.bpi soaprtl.bpi dclocx.bpi dbexpress.bpi dbxcds.bpi 
+      indy.bpi bcb2kaxserver.bpi Package_TGDRuler.bpi"/>
+    <PATHCPP value=".;formularios;formularios;clases;formularios;clases;&quot;formularios\Gantt Chat&quot;;&quot;formularios\Energy Chart&quot;;clases;clases;clases;clases;clases;clases;clases"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG;USE_BORLAND_INST"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="JSSP_Viewer.cpp"/>
+    <INCLUDEPATH value="&quot;formularios\Energy Chart&quot;;&quot;formularios\Gantt Chat&quot;;clases;&quot;formularios\Diagrama de Gantt&quot;;formularios;&quot;C:\Archivos de programa\Borland\CBuilder6\Projects&quot;;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="&quot;formularios\Energy Chart&quot;;&quot;formularios\Gantt Chat&quot;;clases;&quot;formularios\Diagrama de Gantt&quot;;formularios;&quot;C:\Archivos de programa\Borland\CBuilder6\Projects&quot;;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I&quot;formularios\Energy Chart&quot; -I&quot;formularios\Gantt Chat&quot; -Iclases 
+      -I&quot;formularios\Diagrama de Gantt&quot; -Iformularios 
+      -I&quot;C:\Archivos de programa\Borland\CBuilder6\Projects&quot; -I$(BCB)\include 
+      -I$(BCB)\include\vcl -src_suffix cpp -D_DEBUG -DUSE_BORLAND_INST -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="JSSP_Viewer.res" FORMNAME="" UNITNAME="JSSP_Viewer.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="JSSP_Viewer.cpp" FORMNAME="" UNITNAME="JSSP_Viewer" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="formularios\_frmMDIMain.cpp" FORMNAME="frmMDIMain" UNITNAME="_frmMDIMain" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="formularios\_frmAboutBox.cpp" FORMNAME="frmAboutBox" UNITNAME="_frmAboutBox" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="clases\class_TGanttDiagram.cpp" FORMNAME="" UNITNAME="class_TGanttDiagram.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="clases\class_RegSequence.h" FORMNAME="" UNITNAME="class_RegSequence.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="formularios\_frmSequences.cpp" FORMNAME="frmSequences" UNITNAME="_frmSequences" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="clases\gceUtiles.cpp" FORMNAME="" UNITNAME="gceUtiles" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ga_bcc.lib" FORMNAME="" UNITNAME="ga_bcc.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="formularios\Gantt Chat\_frmGDiagram.cpp" FORMNAME="frmGanttDiagram" UNITNAME="_frmGDiagram" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="formularios\Energy Chart\_frmEnergyChart.cpp" FORMNAME="frmEnergyChart" UNITNAME="_frmEnergyChart" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="clases\class_EnergyChart.cpp" FORMNAME="" UNITNAME="class_EnergyChart" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="clases\CHndFile_PM.cpp" FORMNAME="" UNITNAME="CHndFile_PM.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="clases\CMachineCollection_PM.cpp" FORMNAME="" UNITNAME="CMachineCollection_PM.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="clases\CMachineGroup_PM.cpp" FORMNAME="" UNITNAME="CMachineGroup_PM.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="clases\CPieceCollection_PM.cpp" FORMNAME="" UNITNAME="CPieceCollection_PM.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="clases\CSPGraph_PM.cpp" FORMNAME="" UNITNAME="CSPGraph_PM.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="clases\CWorkCenterCollection_PM.cpp" FORMNAME="" UNITNAME="CWorkCenterCollection_PM" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=3082
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=30
+Item0=formularios\Energy Chart;formularios\Gantt Chat;clases;formularios\Diagrama de Gantt;formularios;C:\Archivos de programa\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item1=clases;formularios\Diagrama de Gantt;formularios;C:\Archivos de programa\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item2=D:\Marquez\Fuentes\C++ Builder\SecProMaq para secuencias estaticas;clases;formularios\Diagrama de Gantt;formularios;C:\Archivos de programa\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item3=clases;formularios\Diagrama de Gantt;formularios;C:\Archivos de programa\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;D:\Marquez\Fuentes\C++ Builder\SecProMaq para secuencias estaticas
+Item4=formularios\Diagrama de Gantt;formularios;clases;C:\Archivos de programa\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item5=formularios\Diagrama de Gantt;formularios;C:\Archivos de programa\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item6=..\SecProMaq v4.1\clases;clases;formularios\Diagrama de Gantt;formularios;C:\Archivos de programa\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item7=clases;formularios\Diagrama de Gantt;D:\Marquez\Fuentes\C++ Builder\SecProMaq v4.1\clases;formularios;C:\Archivos de programa\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item8=formularios\Diagrama de Gantt;D:\Marquez\Fuentes\C++ Builder\SecProMaq v4.1\clases;formularios;C:\Archivos de programa\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item9=formularios\Diagrama de Gantt;clases;formularios;C:\Archivos de programa\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item10=formularios\Diagrama de Gantt;clases;formularios;C:\Archivos de programa\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\include\ga
+Item11=formularios\Diagrama de Gantt;clases;formularios;C:\Archivos de programa\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\include\ga;D:\Marquez\Fuentes\C++ Builder\SecProMaq para secuencias estaticas\clases
+Item12=..\Probando Makespan con GAlib!!!;formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;clases;formularios;C:\Archivos de programa\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\include\ga
+Item13=formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;clases;formularios;C:\Archivos de programa\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\include\ga
+Item14=formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;clases;formularios;C:\Archivos de programa\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\include\ga;D:\Program\C ++ Biulder\Tesis de Diploma !!!\SSP-OptiProd v4.0
+Item15=..\Probando Makespan con GAlib!!!;clases;formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;C:\Archivos de programa\Borland\CBuilder6\Projects;formularios;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\include\ga
+Item16=clases;formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;C:\Archivos de programa\Borland\CBuilder6\Projects;formularios;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\include\ga
+Item17=..\..\..\Biblioteca de Fuentes\biblioteca de mis Utilidades;clases;formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;C:\Archivos de programa\Borland\CBuilder6\Projects;formularios;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\include\ga
+Item18=..\..\..\Biblioteca de Fuentes\biblioteca de mis Utilidades;..\Probando Makespan con GAlib!!!;clases;formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;C:\Archivos de programa\Borland\CBuilder6\Projects;formularios;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\include\ga
+Item19=formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;C:\Archivos de programa\Borland\CBuilder6\Projects;clases;formularios;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\include\ga
+Item20=..\Probando Makespan con GAlib!!!;clases;formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;C:\Archivos de programa\Borland\CBuilder6\Projects;formularios;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\include\ga;D:\Program\C ++ Biulder\Tesis de Diploma !!!\SSP-OptiProd v4.0
+Item21=clases;formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;C:\Archivos de programa\Borland\CBuilder6\Projects;formularios;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\include\ga;D:\Program\C ++ Biulder\Tesis de Diploma !!!\SSP-OptiProd v4.0
+Item22=clases;formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;C:\Archivos de programa\Borland\CBuilder6\Projects;formularios;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\include\ga;D:\Program\C ++ Biulder\Tesis de Diploma !!!\SSP-OptiProd v4.0\clases
+Item23=formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;C:\Archivos de programa\Borland\CBuilder6\Projects;formularios;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\include\ga;D:\Program\C ++ Biulder\Tesis de Diploma !!!\SSP-OptiProd v4.0\clases
+Item24=formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;C:\Archivos de programa\Borland\CBuilder6\Projects;formularios;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\include\ga
+Item25=clases;D:\Program\C ++ Biulder\Tesis de Diploma !!!\SSP-OptiProd v4.0\clases;formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;C:\Archivos de programa\Borland\CBuilder6\Projects;formularios;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\include\ga
+Item26=D:\Program\C ++ Biulder\Tesis de Diploma !!!\SSP-OptiProd v4.0\clases;formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;C:\Archivos de programa\Borland\CBuilder6\Projects;formularios;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\include\ga
+Item27=clases;formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;D:\Program\C ++ Biulder\Tesis de Diploma !!!\SSP-OptiProd v3.0\clases;C:\Archivos de programa\Borland\CBuilder6\Projects;formularios;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\include\ga
+Item28=formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;D:\Program\C ++ Biulder\Tesis de Diploma !!!\SSP-OptiProd v3.0\clases;C:\Archivos de programa\Borland\CBuilder6\Projects;formularios;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\include\ga
+Item29=D:\Program\C ++ Biulder\Tesis de Diploma !!!\SSP-OptiProd v4.0\clases;formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;D:\Program\C ++ Biulder\Tesis de Diploma !!!\SSP-OptiProd v3.0\clases;C:\Archivos de programa\Borland\CBuilder6\Projects;formularios;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\include\ga
+
+[HistoryLists\hlLibraryPath]
+Count=30
+Item0=formularios\Energy Chart;formularios\Gantt Chat;clases;formularios\Diagrama de Gantt;formularios;C:\Archivos de programa\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item1=clases;formularios\Diagrama de Gantt;formularios;C:\Archivos de programa\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item2=D:\Marquez\Fuentes\C++ Builder\SecProMaq para secuencias estaticas;clases;formularios\Diagrama de Gantt;formularios;C:\Archivos de programa\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item3=clases;formularios\Diagrama de Gantt;formularios;C:\Archivos de programa\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\Marquez\Fuentes\C++ Builder\SecProMaq para secuencias estaticas
+Item4=formularios\Diagrama de Gantt;formularios;clases;C:\Archivos de programa\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item5=formularios\Diagrama de Gantt;formularios;C:\Archivos de programa\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item6=..\SecProMaq v4.1\clases;clases;formularios\Diagrama de Gantt;formularios;C:\Archivos de programa\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item7=formularios\Diagrama de Gantt;formularios;D:\Marquez\Fuentes\C++ Builder\SecProMaq para secuencias estaticas\clases;C:\Archivos de programa\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item8=clases;formularios\Diagrama de Gantt;formularios;D:\Marquez\Fuentes\C++ Builder\SecProMaq v4.1\clases;C:\Archivos de programa\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item9=formularios\Diagrama de Gantt;formularios;D:\Marquez\Fuentes\C++ Builder\SecProMaq v4.1\clases;C:\Archivos de programa\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item10=formularios\Diagrama de Gantt;formularios;clases;C:\Archivos de programa\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\Marquez\Fuentes\C++ Builder\SecProMaq para secuencias estaticas\clases
+Item11=..\Probando Makespan con GAlib!!!;formularios\Diagrama de Gantt;formularios\Wizard New Project;formularios\Wizard New DataFile;formularios;clases;C:\Archivos de programa\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item12=formularios\Diagrama de Gantt;formularios\Wizard New Project;formularios\Wizard New DataFile;formularios;clases;C:\Archivos de programa\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item13=formularios\Diagrama de Gantt;formularios\Wizard New Project;formularios\Wizard New DataFile;formularios;clases;C:\Archivos de programa\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\Program\C ++ Biulder\Tesis de Diploma !!!\SSP-OptiProd v4.0
+Item14=..\Probando Makespan con GAlib!!!;clases;formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;C:\Archivos de programa\Borland\CBuilder6\Projects;formularios;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item15=clases;formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;C:\Archivos de programa\Borland\CBuilder6\Projects;formularios;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item16=..\..\..\Biblioteca de Fuentes\biblioteca de mis Utilidades;clases;formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;C:\Archivos de programa\Borland\CBuilder6\Projects;formularios;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item17=..\..\..\Biblioteca de Fuentes\biblioteca de mis Utilidades;..\Probando Makespan con GAlib!!!;clases;formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;C:\Archivos de programa\Borland\CBuilder6\Projects;formularios;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item18=formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;C:\Archivos de programa\Borland\CBuilder6\Projects;clases;formularios;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item19=..\Probando Makespan con GAlib!!!;clases;formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;C:\Archivos de programa\Borland\CBuilder6\Projects;formularios;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\Program\C ++ Biulder\Tesis de Diploma !!!\SSP-OptiProd v4.0
+Item20=clases;formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;C:\Archivos de programa\Borland\CBuilder6\Projects;formularios;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\Program\C ++ Biulder\Tesis de Diploma !!!\SSP-OptiProd v4.0
+Item21=clases;D:\Program\C ++ Biulder\Tesis de Diploma !!!\SSP-OptiProd v4.0\clases;formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;C:\Archivos de programa\Borland\CBuilder6\Projects;formularios;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item22=D:\Program\C ++ Biulder\Tesis de Diploma !!!\SSP-OptiProd v4.0\clases;formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;C:\Archivos de programa\Borland\CBuilder6\Projects;formularios;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item23=formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;C:\Archivos de programa\Borland\CBuilder6\Projects;formularios;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item24=formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;C:\Archivos de programa\Borland\CBuilder6\Projects;formularios;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\Program\C ++ Biulder\Tesis de Diploma !!!\SSP-OptiProd v4.0\clases
+Item25=formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;C:\Archivos de programa\Borland\CBuilder6\Projects;formularios;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;clases
+Item26=formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;C:\Archivos de programa\Borland\CBuilder6\Projects;formularios;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;clases;D:\Program\C ++ Biulder\Tesis de Diploma !!!\SSP-OptiProd v3.0\clases
+Item27=C:\Archivos de programa\Borland\CBuilder6\Projects;formularios;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;clases
+Item28=..\..\..\Visual C++\Tesis de Diploma !!!\Algoritmo para el Makespan\FlowShop v5.0;..\..\..\Visual C++\Tesis de Diploma !!!\Algoritmo para el Makespan\FlowShop v7.0;..\Probando Makespan con GAlib;formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;C:\Archivos de programa\Borland\CBuilder6\Projects;formularios;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;clases
+Item29=formularios\Diagrama de Gantt;formularios\Wizard New DataFile;formularios\Wizard New Project;C:\Archivos de programa\Borland\CBuilder6\Projects;formularios;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;clases;D:\Program\C ++ Biulder\Tesis de Diploma !!!\SSP-OptiProd v3.0
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=2
+Item0=_DEBUG;USE_BORLAND_INST
+Item1=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=1
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

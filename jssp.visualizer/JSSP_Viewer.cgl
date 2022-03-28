@@ -1,0 +1,11 @@
+Error 00079. 0x300010 (Thread 0x09A8):
+Resource leak: The memory block (0xE420FC) was never freed
+
+The memory block (0x00E420FC) [size: 36 bytes] was allocated with SysGetMem
+Call Tree:
+   0x0045562F(=JSSP_Viewer.exe:0x01:05462F) system.pas#2450
+   0x0045A37E(=JSSP_Viewer.exe:0x01:05937E) WinHelpViewer.pas#655
+   0x004DBBD5(=JSSP_Viewer.exe:0x01:0DABD5)
+   0x004DBDAB(=JSSP_Viewer.exe:0x01:0DADAB)
+
+------------------------------------------

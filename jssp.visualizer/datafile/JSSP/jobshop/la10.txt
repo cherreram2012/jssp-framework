@@ -1,0 +1,243 @@
+Pieces  : 15
+Machines: 5
+
+[MACHINES]
+M1
+M2
+M3
+M4
+M5
+[End]
+
+[NOMINAL ENERGY]
+1
+1
+1
+1
+1
+[End]
+
+[PIECE]
+Name: P1
+ID: 1
+Priority: 0
+DueDate: 0
+Penality: 0
+Reward: 0
+
+M2: 58
+M3: 44
+M4: 5
+M1: 9
+M5: 58
+[End]
+
+[PIECE]
+Name: P2
+ID: 2
+Priority: 0
+DueDate: 0
+Penality: 0
+Reward: 0
+
+M2: 89
+M1: 97
+M5: 96
+M4: 77
+M3: 84
+[End]
+
+[PIECE]
+Name: P3
+ID: 3
+Priority: 0
+DueDate: 0
+Penality: 0
+Reward: 0
+
+M1: 77
+M2: 87
+M3: 81
+M5: 39
+M4: 85
+[End]
+
+[PIECE]
+Name: P4
+ID: 4
+Priority: 0
+DueDate: 0
+Penality: 0
+Reward: 0
+
+M4: 57
+M2: 21
+M3: 31
+M1: 15
+M5: 73
+[End]
+
+[PIECE]
+Name: P5
+ID: 5
+Priority: 0
+DueDate: 0
+Penality: 0
+Reward: 0
+
+M3: 48
+M1: 40
+M2: 49
+M4: 70
+M5: 71
+[End]
+
+[PIECE]
+Name: P6
+ID: 6
+Priority: 0
+DueDate: 0
+Penality: 0
+Reward: 0
+
+M4: 34
+M5: 82
+M3: 80
+M1: 10
+M2: 22
+[End]
+
+[PIECE]
+Name: P7
+ID: 7
+Priority: 0
+DueDate: 0
+Penality: 0
+Reward: 0
+
+M2: 91
+M5: 75
+M1: 55
+M3: 17
+M4: 7
+[End]
+
+[PIECE]
+Name: P8
+ID: 8
+Priority: 0
+DueDate: 0
+Penality: 0
+Reward: 0
+
+M3: 62
+M4: 47
+M2: 72
+M5: 35
+M1: 11
+[End]
+
+[PIECE]
+Name: P9
+ID: 9
+Priority: 0
+DueDate: 0
+Penality: 0
+Reward: 0
+
+M1: 64
+M4: 75
+M5: 50
+M2: 90
+M3: 94
+[End]
+
+[PIECE]
+Name: P10
+ID: 10
+Priority: 0
+DueDate: 0
+Penality: 0
+Reward: 0
+
+M3: 67
+M5: 20
+M4: 15
+M1: 12
+M2: 71
+[End]
+
+[PIECE]
+Name: P11
+ID: 11
+Priority: 0
+DueDate: 0
+Penality: 0
+Reward: 0
+
+M1: 52
+M5: 93
+M4: 68
+M3: 29
+M2: 57
+[End]
+
+[PIECE]
+Name: P12
+ID: 12
+Priority: 0
+DueDate: 0
+Penality: 0
+Reward: 0
+
+M3: 70
+M1: 58
+M2: 93
+M5: 7
+M4: 77
+[End]
+
+[PIECE]
+Name: P13
+ID: 13
+Priority: 0
+DueDate: 0
+Penality: 0
+Reward: 0
+
+M4: 27
+M3: 82
+M2: 63
+M5: 6
+M1: 95
+[End]
+
+[PIECE]
+Name: P14
+ID: 14
+Priority: 0
+DueDate: 0
+Penality: 0
+Reward: 0
+
+M2: 87
+M3: 56
+M5: 36
+M1: 26
+M4: 48
+[End]
+
+[PIECE]
+Name: P15
+ID: 15
+Priority: 0
+DueDate: 0
+Penality: 0
+Reward: 0
+
+M4: 76
+M3: 36
+M1: 36
+M5: 15
+M2: 8
+[End]

@@ -1,0 +1,318 @@
+Pieces  : 20
+Machines: 5
+
+[MACHINES]
+M1
+M2
+M3
+M4 
+M5
+[End]
+
+[NOMINAL-ENERGY]
+1	
+1
+1
+1
+1
+[End]
+
+[PIECE]
+Name: AAA
+ID: 1
+Priority: 0.0
+DueDate: 0.0
+Penality: 0.0
+Reward: 0.0
+
+M1: 29
+M2: 9
+M3: 49
+M4: 62
+M5: 44
+[End]
+
+[PIECE]
+Name: BBB
+ID: 2
+Priority: 0.0
+DueDate: 0.0
+Penality: 0.0
+Reward: 0.0
+
+M1: 43
+M2: 75
+M4: 69
+M3: 46
+M5: 72
+[End]
+
+[PIECE]
+Name: CCC
+ID: 3
+Priority: 0.0
+DueDate: 0.0
+Penality: 0.0
+Reward: 0.0
+
+M2: 91
+M1: 39
+M3: 90
+M5: 12
+M4: 45
+[End]
+
+[PIECE]
+Name: DDD
+ID: 4
+Priority: 0.0
+DueDate: 0.0
+Penality: 0.0
+Reward: 0.0
+
+M2: 81
+M1: 71
+M5: 5
+M3: 85
+M4: 22
+[End]
+
+[PIECE]
+Name: EEE
+ID: 5
+Priority: 0.0
+DueDate: 0.0
+Penality: 0.0
+Reward: 0.0
+
+M3: 14
+M2: 22
+M1: 26
+M4: 21
+M5: 72
+[End]
+
+[PIECE]
+Name: FFF
+ID: 6
+Priority: 0.0
+DueDate: 0.0
+Penality: 0.0
+Reward: 0.0
+
+M3: 84
+M2: 52
+M5: 48
+M1: 47
+M4: 6
+[End]
+
+[PIECE]
+Name: GGG
+ID: 7
+Priority: 0.0
+DueDate: 0.0
+Penality: 0.0
+Reward: 0.0
+
+M2: 46
+M1: 61
+M3: 32
+M4: 32
+M5: 30
+[End]
+
+[PIECE]
+Name: HHH
+ID: 8
+Priority: 0.0
+DueDate: 0.0
+Penality: 0.0
+Reward: 0.0
+
+M3: 31
+M2: 46
+M1: 32
+M4: 19
+M5: 36
+[End]
+
+[PIECE]
+Name: III
+ID: 9
+Priority: 0.0
+DueDate: 0.0
+Penality: 0.0
+Reward: 0.0
+
+M1: 76
+M4: 76
+M3: 85
+M2: 40
+M5: 26
+[End]
+
+[PIECE]
+Name: JJJ
+ID: 10
+Priority: 0.0
+DueDate: 0.0
+Penality: 0.0
+Reward: 0.0
+
+M2: 85
+M3: 61
+M1: 64
+M4: 47
+M5: 90
+[End]
+
+[PIECE]
+Name: KKK
+ID: 11
+Priority: 0.0
+DueDate: 0.0
+Penality: 0.0
+Reward: 0.0
+
+M2: 78
+M4: 36
+M1: 11
+M5: 56
+M3: 21
+[End]
+
+[PIECE]
+Name: LLL
+ID: 12
+Priority: 0.0
+DueDate: 0.0
+Penality: 0.0
+Reward: 0.0
+
+M3: 90
+M1: 11
+M2: 28
+M4: 46
+M5: 30
+[End]
+
+[PIECE]
+Name: MMM
+ID: 13
+Priority: 0.0
+DueDate: 0.0
+Penality: 0.0
+Reward: 0.0
+
+M1: 85
+M3: 74
+M2: 10
+M4: 89
+M5: 33
+[End]
+
+[PIECE]
+Name: NNN
+ID: 14
+Priority: 0.0
+DueDate: 0.0
+Penality: 0.0
+Reward: 0.0
+
+M3: 95
+M1: 99
+M2: 52
+M4: 98
+M5: 43
+[End]
+
+[PIECE]
+Name: OOO
+ID: 15
+Priority: 0.0
+DueDate: 0.0
+Penality: 0.0
+Reward: 0.0
+
+M1: 6
+M2: 61
+M5: 69
+M3: 49
+M4: 53
+[End]
+
+[PIECE]
+Name: PPP
+ID: 16
+Priority: 0.0
+DueDate: 0.0
+Penality: 0.0
+Reward: 0.0
+
+M2: 2
+M1: 95
+M4: 72
+M5: 65
+M3: 25
+[End]
+
+[PIECE]
+Name: QQQ
+ID: 17
+Priority: 0.0
+DueDate: 0.0
+Penality: 0.0
+Reward: 0.0
+
+M1: 37
+M3: 13
+M2: 21
+M4: 89
+M5: 55
+[End]
+
+[PIECE]
+Name: RRR
+ID: 18
+Priority: 0.0
+DueDate: 0.0
+Penality: 0.0
+Reward: 0.0
+
+M1: 86
+M2: 74
+M5: 88
+M3: 48
+M4: 79
+[End]
+
+[PIECE]
+Name: SSS
+ID: 19
+Priority: 0.0
+DueDate: 0.0
+Penality: 0.0
+Reward: 0.0
+
+M2: 69
+M3: 51
+M1: 11
+M4: 89
+M5: 74
+[End]
+
+[PIECE]
+Name: TTT
+ID: 20
+Priority: 0.0
+DueDate: 0.0
+Penality: 0.0
+Reward: 0.0
+
+M1: 13
+M2: 7
+M3: 76
+M4: 52
+M5: 45
+[End]

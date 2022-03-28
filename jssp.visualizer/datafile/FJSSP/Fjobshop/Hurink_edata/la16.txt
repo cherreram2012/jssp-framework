@@ -1,0 +1,228 @@
+Pieces  : 10
+Machines: 10
+
+[MACHINES]
+M1
+M2
+M3
+M4
+M5
+M6
+M7
+M8
+M9
+M10
+[End]
+
+[NOMINAL-ENERGY]
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+[End]
+
+[PIECE]
+Name: P1
+ID: 1
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M2: 21.0
+M7: 71.0
+M10: 16.0
+M9: 52.0
+M8: 26.0 | M10: 26.0
+M3: 34.0
+M1: 53.0
+M5: 21.0
+M4: 55.0
+M6: 95.0
+[End]
+
+[PIECE]
+Name: P2
+ID: 2
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M5: 55.0
+M3: 31.0
+M6: 98.0 | M9: 98.0
+M10: 79.0
+M1: 12.0
+M8: 66.0 | M10: 66.0
+M2: 42.0
+M9: 77.0
+M7: 77.0
+M4: 39.0
+[End]
+
+[PIECE]
+Name: P3
+ID: 3
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M4: 34.0
+M3: 64.0 | M6: 64.0
+M9: 62.0
+M2: 19.0
+M5: 92.0
+M10: 79.0
+M8: 43.0
+M7: 54.0 | M4: 54.0
+M1: 83.0
+M6: 37.0
+[End]
+
+[PIECE]
+Name: P4
+ID: 4
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M2: 87.0 | M3: 87.0
+M4: 69.0
+M3: 87.0
+M8: 38.0
+M9: 24.0
+M10: 83.0
+M7: 41.0
+M1: 93.0
+M6: 77.0
+M5: 60.0
+[End]
+
+[PIECE]
+Name: P5
+ID: 5
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M3: 98.0
+M1: 44.0 | M9: 44.0
+M6: 25.0
+M7: 75.0 | M5: 75.0
+M8: 43.0
+M2: 49.0
+M5: 96.0
+M10: 77.0 | M9: 77.0
+M4: 17.0
+M9: 79.0 | M8: 79.0
+[End]
+
+[PIECE]
+Name: P6
+ID: 6
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M3: 35.0
+M4: 76.0
+M6: 28.0
+M10: 10.0
+M5: 61.0
+M7: 9.0
+M1: 95.0
+M9: 35.0
+M2: 7.0
+M8: 95.0
+[End]
+
+[PIECE]
+Name: P7
+ID: 7
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M4: 16.0
+M3: 59.0
+M1: 46.0
+M2: 91.0
+M10: 43.0
+M9: 50.0
+M7: 52.0
+M6: 59.0
+M5: 28.0
+M8: 27.0
+[End]
+
+[PIECE]
+Name: P8
+ID: 8
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M2: 45.0 | M3: 45.0
+M1: 87.0
+M4: 41.0
+M5: 20.0
+M7: 54.0
+M10: 43.0
+M9: 14.0
+M6: 9.0
+M3: 39.0
+M8: 71.0
+[End]
+
+[PIECE]
+Name: P9
+ID: 9
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M5: 33.0 | M8: 33.0
+M3: 37.0
+M9: 66.0
+M6: 33.0
+M4: 26.0
+M8: 8.0
+M2: 28.0
+M7: 89.0
+M10: 42.0
+M1: 78.0
+[End]
+
+[PIECE]
+Name: P10
+ID: 10
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M9: 69.0 | M10: 69.0
+M10: 81.0
+M3: 94.0
+M5: 96.0
+M4: 27.0
+M1: 69.0
+M8: 45.0
+M7: 78.0
+M2: 74.0
+M6: 84.0
+[End]

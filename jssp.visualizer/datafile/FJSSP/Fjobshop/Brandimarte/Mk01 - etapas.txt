@@ -1,0 +1,190 @@
+Pieces  : 10
+Machines: 6
+
+[MACHINES]
+M1
+M2
+M3
+M4
+M5
+M6
+[End]
+
+[NOMINAL-ENERGY]
+1
+1
+1
+1
+1
+1
+[End]
+
+[WORK-CENTER]
+Name: Torneado
+M1 | M4
+[End]
+
+[WORK-CENTER]
+Name: Fresado
+M2 | M3 | M6
+[End]
+
+[WORK-CENTER]
+Name: Taladrado
+M5 
+[End]
+
+[PIECE]
+Name: P1
+ID: 1
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M1: 5.0 | M3: 4.0
+M5: 3.0 | M3: 5.0 | M2: 1.0
+M3: 4.0 | M6: 2.0
+M6: 5.0 | M2: 6.0 | M1: 1.0
+M3: 1.0
+M6: 6.0 | M3: 6.0 | M4: 3.0
+[End]
+
+[PIECE]
+Name: P2
+ID: 2
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M2: 6.0
+M3: 1.0
+M1: 2.0
+M2: 6.0 | M4: 6.0
+M6: 5.0 | M2: 6.0 | M1: 1.0
+[End]
+
+[PIECE]
+Name: P3
+ID: 3
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M2: 6.0
+M3: 4.0 | M6: 2.0
+M6: 5.0 | M2: 6.0 | M1: 1.0
+M3: 4.0 | M2: 6.0 | M6: 6.0
+M1: 1.0 | M5: 5.0
+[End]
+
+[PIECE]
+Name: P4
+ID: 4
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M6: 5.0 | M2: 6.0 | M1: 1.0
+M2: 6.0
+M3: 1.0
+M5: 3.0 | M3: 5.0 | M2: 1.0
+M3: 4.0 | M6: 2.0
+[End]
+
+[PIECE]
+Name: P5
+ID: 5
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M5: 3.0 | M3: 5.0 | M2: 1.0
+M6: 5.0 | M2: 6.0 | M1: 1.0
+M2: 6.0
+M1: 5.0 | M3: 4.0
+M2: 6.0 | M4: 6.0
+M3: 4.0 | M2: 6.0 | M6: 6.0
+[End]
+
+[PIECE]
+Name: P6
+ID: 6
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M3: 4.0 | M6: 2.0
+M1: 2.0
+M3: 4.0 | M2: 6.0 | M6: 6.0
+M2: 6.0
+M6: 5.0 | M2: 6.0 | M1: 1.0
+M1: 3.0 | M4: 2.0
+[End]
+
+[PIECE]
+Name: P7
+ID: 7
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M6: 1.0
+M1: 3.0 | M4: 2.0
+M3: 4.0 | M2: 6.0 | M6: 6.0
+M2: 6.0 | M5: 1.0 | M1: 6.0
+M3: 1.0
+[End]
+
+[PIECE]
+Name: P8
+ID: 8
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M3: 4.0 | M6: 2.0
+M3: 4.0 | M2: 6.0 | M6: 6.0
+M6: 5.0 | M2: 6.0 | M1: 1.0
+M2: 6.0
+M2: 6.0 | M4: 6.0
+[End]
+
+[PIECE]
+Name: P9
+ID: 9
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M6: 1.0
+M1: 1.0 | M5: 5.0
+M6: 6.0 | M3: 6.0 | M4: 3.0
+M1: 2.0
+M3: 4.0 | M2: 6.0 | M6: 6.0
+M2: 6.0 | M4: 6.0
+[End]
+
+[PIECE]
+Name: P10
+ID: 10
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M3: 4.0 | M6: 2.0
+M3: 4.0 | M2: 6.0 | M6: 6.0
+M5: 3.0 | M3: 5.0 | M2: 1.0
+M6: 1.0
+M2: 6.0 | M4: 6.0
+M1: 3.0 | M4: 2.0
+[End]

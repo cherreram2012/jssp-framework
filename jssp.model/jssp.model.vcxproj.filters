@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sources files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resources files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CHndFile.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMachineCollection.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMachineGroup.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPieceCollection.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorkCenterCollection.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSchedule.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDataSet.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGraphCAPP.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGraphBase.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGraphFJSS.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGraphJSS.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGraphPFSS.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFasterCopy.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CHndFile.cpp">
+      <Filter>Sources files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMachineCollection.cpp">
+      <Filter>Sources files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMachineGroup.cpp">
+      <Filter>Sources files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPieceCollection.cpp">
+      <Filter>Sources files</Filter>
+    </ClCompile>
+    <ClCompile Include="CWorkCenterCollection.cpp">
+      <Filter>Sources files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSchedule.cpp">
+      <Filter>Sources files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDataSet.cpp">
+      <Filter>Sources files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGraphBase.cpp">
+      <Filter>Sources files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGraphJSS.cpp">
+      <Filter>Sources files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGraphFJSS.cpp">
+      <Filter>Sources files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGraphPFSS.cpp">
+      <Filter>Sources files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGraphCAPP.cpp">
+      <Filter>Sources files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\Debug\chm.utilities.lib" />
+  </ItemGroup>
+</Project>

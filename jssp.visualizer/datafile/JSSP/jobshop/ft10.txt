@@ -1,0 +1,228 @@
+Pieces  : 10
+Machines: 10
+
+[MACHINES]
+M1
+M2
+M3
+M4 
+M5
+M6
+M7
+M8
+M9
+M10
+[End]
+
+[NOMINAL-ENERGY]
+10	
+10
+10
+10
+10
+10
+10
+10
+10
+10
+[End]
+
+[PIECE]
+Name: AAA
+ID: 1
+Priority: 0.0
+DueDate: 26.0
+Penality: 0.1
+Reward: 0.2
+
+M1: 29
+M2: 78
+M3: 9
+M4: 36
+M5: 49
+M6: 11
+M7: 62
+M8: 56
+M9: 44
+M10: 21
+[End]
+
+[PIECE]
+Name: BBB
+ID: 2
+Priority: 0.0
+DueDate: 47.0
+Penality: 0.1
+Reward: 0.2
+
+M1: 43
+M3: 90
+M5: 75
+M10: 11
+M4: 69
+M2: 28
+M7: 46
+M6: 46
+M8: 72
+M9: 30
+[End]
+
+[PIECE]
+Name: CCC
+ID: 3
+Priority: 0.0
+DueDate: 34.0
+Penality: 0.1
+Reward: 0.2
+
+M2: 91
+M1: 85
+M4: 39
+M3: 74
+M9: 90
+M6: 10
+M8: 12
+M7: 89
+M10: 45
+M5: 33
+[End]
+
+[PIECE]
+Name: DDD
+ID: 4
+Priority: 0.0
+DueDate: 35.0
+Penality: 0.1
+Reward: 0.2
+
+M2: 81
+M3: 95
+M1: 71
+M5: 99
+M7: 9
+M9: 52
+M8: 85
+M4: 98
+M10: 22
+M6: 43
+[End]
+
+[PIECE]
+Name: EEE
+ID: 5
+Priority: 0.0
+DueDate: 25.0
+Penality: 0.1
+Reward: 0.2
+
+M3: 14
+M1: 6
+M2: 22
+M6: 61
+M4: 26
+M5: 69
+M9: 21
+M8: 49
+M10: 72
+M7: 53
+[End]
+
+[PIECE]
+Name: FFF
+ID: 6
+Priority: 0.0
+DueDate: 30.0
+Penality: 0.1
+Reward: 0.2
+
+M3: 84
+M2: 2
+M6: 52
+M4: 95
+M9: 48
+M10: 72
+M1: 47
+M7: 65
+M5: 6
+M8: 25
+[End]
+
+[PIECE]
+Name: GGG
+ID: 7
+Priority: 0.0
+DueDate: 30.0
+Penality: 0.1
+Reward: 0.2
+
+M2: 46
+M1: 37
+M4: 61
+M3: 13
+M7: 32
+M6: 21
+M10: 32
+M9: 89
+M8: 30
+M5: 55
+[End]
+
+[PIECE]
+Name: HHH
+ID: 8
+Priority: 0.0
+DueDate: 30.0
+Penality: 0.1
+Reward: 0.2
+
+M3: 31
+M1: 86
+M2: 46
+M6: 74
+M5: 32
+M7: 88
+M9: 19
+M10: 48
+M8: 36
+M4: 79
+[End]
+
+[PIECE]
+Name: III
+ID: 9
+Priority: 0.0
+DueDate: 30.0
+Penality: 0.1
+Reward: 0.2
+
+M1: 76
+M2: 69
+M4: 76
+M6: 51
+M3: 85
+M10: 11
+M7: 40
+M8: 89
+M5: 26
+M9: 74
+[End]
+
+[PIECE]
+Name: JJJ
+ID: 10
+Priority: 0.0
+DueDate: 30.0
+Penality: 0.1
+Reward: 0.2
+
+M2: 85
+M1: 13
+M3: 61
+M7: 7
+M9: 64
+M10: 76
+M6: 47
+M4: 52
+M5: 90
+M8: 45
+[End]

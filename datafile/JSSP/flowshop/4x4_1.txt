@@ -1,0 +1,70 @@
+Pieces  : 4
+Machines: 4
+
+[MACHINES]
+M1
+M2
+M3
+M4
+[End]
+
+[NOMINAL ENERGY]
+10		
+10
+10
+10
+[End]
+
+[PIECE] 
+Name: AAA
+ID: 1
+Priority: 0.0
+DueDate: 27.0
+Penality: 0.0
+Reward: 0.0
+
+M1: 4
+M2: 12
+M3: 8
+M4: 3
+[End]
+
+[PIECE] 
+Name: BBB
+ID: 2
+Priority: 0.0
+DueDate: 18.0
+Penality: 0.0
+Reward: 0.0
+
+M1: 3
+M2: 6
+M4: 9
+[End]
+
+[PIECE] 
+Name: CCC
+ID: 3
+Priority: 0.0
+DueDate: 32.0
+Penality: 0.0
+Reward: 0.0
+
+M1: 3
+M2: 8
+M3: 10
+M4: 11
+[End]
+
+[PIECE] 
+Name: DDD
+ID: 4
+Priority: 0.0
+DueDate: 21.0 
+Penality: 0.0
+Reward: 0.0
+
+M1: 6
+M3: 10
+M4: 5
+[End]

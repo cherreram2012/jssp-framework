@@ -1,0 +1,264 @@
+Pieces  : 15
+Machines: 8
+
+[MACHINES]
+M1
+M2
+M3
+M4
+M5
+M6
+M7
+M8
+[End]
+
+[NOMINAL-ENERGY]
+1
+1
+1
+1
+1
+1
+1
+1
+[End]
+
+[PIECE]
+Name: P1
+ID: 1
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M1: 6.0
+M1: 6.0 | M7: 9.0
+M6: 7.0 | M3: 1.0
+M4: 2.0 | M7: 5.0
+M1: 8.0 | M3: 9.0 | M8: 9.0
+M2: 3.0 | M4: 8.0 | M3: 2.0
+M5: 5.0 | M6: 7.0
+M6: 1.0 | M4: 7.0
+[End]
+
+[PIECE]
+Name: P2
+ID: 2
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M6: 1.0
+M6: 1.0 | M4: 7.0
+M1: 6.0
+M6: 7.0 | M3: 1.0
+M2: 3.0 | M4: 8.0 | M3: 2.0
+M6: 2.0
+M7: 2.0
+[End]
+
+[PIECE]
+Name: P3
+ID: 3
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M6: 1.0
+M2: 3.0 | M4: 8.0 | M3: 2.0
+M3: 2.0 | M7: 1.0 | M4: 4.0
+M4: 2.0 | M7: 5.0
+M1: 7.0 | M3: 7.0
+M4: 4.0 | M3: 1.0
+[End]
+
+[PIECE]
+Name: P4
+ID: 4
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M7: 2.0
+M1: 6.0
+M1: 6.0 | M7: 9.0
+M6: 7.0 | M3: 1.0
+M4: 5.0 | M5: 7.0
+[End]
+
+[PIECE]
+Name: P5
+ID: 5
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M7: 2.0
+M1: 6.0 | M7: 9.0
+M4: 4.0 | M3: 1.0
+M1: 8.0 | M3: 9.0 | M8: 9.0
+M1: 7.0 | M3: 7.0
+M2: 3.0 | M4: 8.0 | M3: 2.0
+M4: 5.0 | M5: 7.0
+[End]
+
+[PIECE]
+Name: P6
+ID: 6
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M6: 2.0
+M4: 4.0 | M3: 1.0
+M3: 2.0 | M7: 1.0 | M4: 4.0
+M6: 1.0 | M4: 7.0
+M4: 5.0 | M5: 7.0
+M1: 8.0 | M3: 9.0 | M8: 9.0
+M1: 7.0 | M3: 7.0
+M6: 1.0
+M1: 6.0 | M7: 9.0
+[End]
+
+[PIECE]
+Name: P7
+ID: 7
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M5: 5.0 | M6: 7.0
+M1: 7.0 | M3: 7.0
+M6: 1.0 | M4: 7.0
+M6: 2.0
+M6: 7.0 | M3: 1.0
+[End]
+
+[PIECE]
+Name: P8
+ID: 8
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M4: 5.0 | M5: 7.0
+M5: 5.0 | M6: 7.0
+M2: 3.0 | M4: 8.0 | M3: 2.0
+M6: 2.0
+M6: 1.0
+M1: 6.0 | M7: 9.0
+[End]
+
+[PIECE]
+Name: P9
+ID: 9
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M1: 6.0
+M1: 6.0 | M7: 9.0
+M4: 4.0 | M3: 1.0
+M1: 8.0 | M3: 9.0 | M8: 9.0
+M4: 2.0 | M7: 5.0
+M6: 1.0 | M4: 7.0
+M7: 2.0
+M1: 7.0 | M3: 7.0
+M2: 3.0 | M4: 8.0 | M3: 2.0
+[End]
+
+[PIECE]
+Name: P10
+ID: 10
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M5: 5.0 | M6: 7.0
+M1: 6.0
+M7: 2.0
+M4: 5.0 | M5: 7.0
+M1: 6.0 | M7: 9.0
+[End]
+
+[PIECE]
+Name: P11
+ID: 11
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M1: 8.0 | M3: 9.0 | M8: 9.0
+M1: 6.0
+M2: 3.0 | M4: 8.0 | M3: 2.0
+M4: 2.0 | M7: 5.0
+[End]
+
+[PIECE]
+Name: P12
+ID: 12
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M4: 2.0 | M7: 5.0
+M6: 1.0
+M1: 6.0
+M1: 7.0 | M3: 7.0
+M1: 8.0 | M3: 9.0 | M8: 9.0
+M7: 2.0
+[End]
+
+[PIECE]
+Name: P13
+ID: 13
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M6: 2.0
+M6: 7.0 | M3: 1.0
+M6: 1.0 | M4: 7.0
+M5: 5.0 | M6: 7.0
+[End]
+
+[PIECE]
+Name: P14
+ID: 14
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M5: 5.0 | M6: 7.0
+M6: 1.0
+M4: 2.0 | M7: 5.0
+[End]
+
+[PIECE]
+Name: P15
+ID: 15
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M4: 5.0 | M5: 7.0
+M7: 2.0
+M1: 8.0 | M3: 9.0 | M8: 9.0
+M2: 3.0 | M4: 8.0 | M3: 2.0
+M3: 2.0 | M7: 1.0 | M4: 4.0
+M1: 6.0
+[End]

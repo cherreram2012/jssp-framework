@@ -1,0 +1,243 @@
+Pieces  : 15
+Machines: 5
+
+[MACHINES]
+M1
+M2
+M3
+M4
+M5
+[End]
+
+[NOMINAL-ENERGY]
+1
+1
+1
+1
+1
+[End]
+
+[PIECE]
+Name: P1
+ID: 1
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M1: 47.0
+M5: 57.0
+M2: 71.0
+M4: 96.0
+M3: 14.0 | M5: 14.0
+[End]
+
+[PIECE]
+Name: P2
+ID: 2
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M1: 75.0
+M2: 60.0
+M5: 22.0
+M4: 79.0
+M3: 65.0
+[End]
+
+[PIECE]
+Name: P3
+ID: 3
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M4: 32.0
+M1: 33.0
+M3: 69.0 | M4: 69.0
+M2: 31.0
+M5: 58.0
+[End]
+
+[PIECE]
+Name: P4
+ID: 4
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M1: 44.0 | M5: 44.0
+M2: 34.0
+M5: 51.0
+M4: 58.0
+M3: 47.0
+[End]
+
+[PIECE]
+Name: P5
+ID: 5
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M4: 29.0
+M2: 44.0 | M3: 44.0
+M1: 62.0
+M3: 17.0
+M5: 8.0
+[End]
+
+[PIECE]
+Name: P6
+ID: 6
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M2: 15.0
+M3: 40.0
+M1: 97.0 | M5: 97.0
+M5: 38.0
+M4: 66.0
+[End]
+
+[PIECE]
+Name: P7
+ID: 7
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M3: 58.0 | M2: 58.0
+M2: 39.0
+M1: 57.0
+M5: 20.0
+M4: 50.0
+[End]
+
+[PIECE]
+Name: P8
+ID: 8
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M3: 57.0
+M4: 32.0
+M5: 87.0
+M1: 63.0
+M2: 21.0
+[End]
+
+[PIECE]
+Name: P9
+ID: 9
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M5: 56.0
+M1: 84.0 | M3: 84.0
+M3: 90.0
+M2: 85.0
+M4: 61.0 | M5: 61.0
+[End]
+
+[PIECE]
+Name: P10
+ID: 10
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M5: 15.0
+M1: 20.0
+M2: 67.0
+M4: 30.0 | M5: 30.0
+M3: 70.0
+[End]
+
+[PIECE]
+Name: P11
+ID: 11
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M5: 84.0 | M3: 84.0
+M1: 82.0
+M2: 23.0
+M3: 45.0
+M4: 38.0
+[End]
+
+[PIECE]
+Name: P12
+ID: 12
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M4: 50.0
+M3: 21.0
+M1: 18.0
+M5: 41.0
+M2: 29.0
+[End]
+
+[PIECE]
+Name: P13
+ID: 13
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M5: 16.0
+M2: 52.0
+M1: 52.0
+M3: 38.0
+M4: 54.0
+[End]
+
+[PIECE]
+Name: P14
+ID: 14
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M5: 37.0
+M1: 54.0
+M4: 57.0
+M3: 74.0
+M2: 62.0
+[End]
+
+[PIECE]
+Name: P15
+ID: 15
+Priority: 0
+DueDate : 0
+Penality: 0
+Reward  : 0
+
+M5: 57.0 | M1: 57.0
+M2: 61.0
+M1: 81.0
+M3: 30.0
+M4: 68.0
+[End]
